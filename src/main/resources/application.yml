@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: test-sentinel
+  profiles:
+    active: dev   # 设置当前环境： dev  prod
+  cloud:
+    sentinel:
+      transport:
+        port: 8100 #跟sentinel控制台交流的端口,随意指定一个未使用的端口即可
+        client-ip: localhost
+        dashboard: localhost:8180 # 指定sentinel控制台地址。
+      eager: true
+server:
+  # 端口号
+  port: 5050
