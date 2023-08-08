@@ -60,6 +60,12 @@
             <artifactId>sentinel-datasource-nacos</artifactId>
             <version>1.8.6</version>
         </dependency>
+        <!--热点规则-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-parameter-flow-control</artifactId>
+            <version>1.8.6</version>
+        </dependency>
 
         <dependency>
             <groupId>com.alibaba.csp</groupId>
